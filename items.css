@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+header {
+    background-color: rgb(53, 173, 247);
+    display: flex;
+
+}
+
+.title {
+    font-family: 'Honk', system-ui;
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin-inline-start: -100px;
+
+}
+
+input[type="text"] {
+    width: 500px;
+    padding: 5px;
+    border-radius: 35px;
+    border: 1px solid #ccc;
+    margin-left: 250px;
+
+}
+
+#search{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+
+
+}
+.cart{
+    width: 60px;
+    height: 60px;
+    margin-top: 42px;
+    margin-left: 10px;
+}
+.cart1{
+    width: 40px;
+    height: 40px;
+    margin-top: 48px;
+    margin-left: 100px;
+}
+#logout {
+    width: 80px;
+    height: 30px;
+    margin-top: 55px;
+    margin-left: 80px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+pre {
+    margin-left: 0px;
+}
+
+nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 70px;
+}
+
+nav a {
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+}
+
+.hero img {
+    width: 400px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.hero h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.button {
+    background-color: #f05a4a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}

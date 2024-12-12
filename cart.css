@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Pacifico&display=swap');
+
+body{
+    margin: 0px;
+    background-image: url('backlogo.jpg');
+    background-size: cover;
+}
+header {
+    text-align: center;
+    margin: 0px;
+    background-color: rgb(53, 173, 247);
+    display: flex;
+}
+
+.title {
+    font-family: 'Honk', system-ui;
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.cart {
+    width: 60px;
+    height: 60px;
+    margin-top: 42px;
+    margin-left: 10px;
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    margin-top: 50px;
+    margin-left: 150px;
+    color: rgb(255, 0, 64);
+}
+#menubtn{
+    height: 30px;
+    width: 70px;
+    margin-top: 60px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 140px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 0px;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu,
+.cart {
+    flex: 1;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #45a049;
+  }
+  
+  

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="cart" src="logobn.png.jpg" alt="cart">
+        </div>
+        <pre>
+            <p class="title">NIGHT BITE<br>NEXUS</p>  
+        </pre>
+        <h1>!!!One Step Away To Get Back To Study!!!</h1>
+        <a href="allitems.html"><button id="menubtn">MENU</button></a>
+    </header>
+    <main>
+    
+        
+        <div class="container">
+            <div class="cart">
+                <h2>Your Cart</h2>
+                <ul id="cart-items">
+                    <p id="empty-cart-message">...IT'S GETTING LATE ADD SOMETHING ...</p>
+
+                    <!-- Cart items will be added here dynamically -->
+                </ul>
+                <div class="menu">
+                    <h2>Add-On's</h2>
+                    <div id="items">
+                        <div class="item" data-name="Mayonnaise" data-price="10.00">
+                            <h3>Mayonnaise</h3>
+                            <p>Price: ₹10.00</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                        <div class="item" data-name="Hot chips" data-price="15.00">
+                            <h3>Hot chips</h3>
+                            <p>Price: ₹15.00</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                        <div class="item" data-name="Oregano Seasoning" data-price="10.00">
+                            <h3>Oregano Seasoning</h3>
+                            <p>Price: ₹10.00</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                        <div class="item" data-name="Milk" data-price="20.00">
+                            <h3>Milk</h3>
+                            <p>Price: ₹20.00</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <p>Total: <span id="cart-total">0.00</span></p>
+                <button onclick="checkout()">Checkout to payment</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="cart.js"></script>
+</body>
+
+</html>
